@@ -1,3 +1,0 @@
-1. Write a Lex  program to count number of lexemes
-2. Write a Lex program to count total number of digit, number, words, operators, command lines, spaces, etc.
-3. LEX code to identify a string is a valid URL or not?
