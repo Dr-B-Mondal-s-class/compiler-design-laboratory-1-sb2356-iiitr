@@ -7,8 +7,8 @@
   
 %%
 
-("hi"|"oi")"\n"       { return HI;  }
-("tchau"|"bye")"\n"   { return BYE; }
+("hi"|"oi"|"hello")"\n"       { return HI;  }
+("ttyl"|"bye")"\n"   { return BYE; }
 [-[]+.,><]            { return yytext[0]; }
 .                     { yyerror("Unknow char");  }
 
