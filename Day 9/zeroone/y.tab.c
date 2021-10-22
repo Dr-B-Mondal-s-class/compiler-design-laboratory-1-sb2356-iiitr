@@ -69,7 +69,7 @@
 #line 1 "zeroone.y"
 
     //sample yacc file to check whether the input
-    //string is a pallindrome or not
+    //string accepts 0/1 or not.
     //parser part
     # include <stdio.h>
     # include <stdlib.h>

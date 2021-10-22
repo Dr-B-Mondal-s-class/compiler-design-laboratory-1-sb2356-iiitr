@@ -440,8 +440,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "identifier.l"
+#line 2 "identifier.l"
     //Valid Identifiers
 #line 447 "lex.yy.c"
 #line 448 "lex.yy.c"
@@ -661,7 +661,7 @@ YY_DECL
 		}
 
 	{
-#line 5 "lex.l"
+#line 5 "identifier.l"
 
 #line 667 "lex.yy.c"
 
@@ -722,17 +722,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "lex.l"
+#line 6 "identifier.l"
 {ECHO; printf(" is a Valid Identifier\n\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "lex.l"
+#line 7 "identifier.l"
 {ECHO; printf(" is an invalid Identifier\n\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "identifier.l"
 ECHO;
 	YY_BREAK
 #line 739 "lex.yy.c"
@@ -1740,7 +1740,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 8 "lex.l"
+#line 8 "identifier.l"
 
 int main() {
     yylex();

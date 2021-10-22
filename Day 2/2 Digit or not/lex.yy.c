@@ -436,8 +436,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "digit.l"
+#line 2 "digit.l"
     // Macros for C program
 #line 443 "lex.yy.c"
 #line 444 "lex.yy.c"
@@ -657,7 +657,7 @@ YY_DECL
 		}
 
 	{
-#line 5 "lex.l"
+#line 5 "digit.l"
 
 #line 663 "lex.yy.c"
 
@@ -718,17 +718,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "lex.l"
+#line 6 "digit.l"
 {printf ("digit");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "lex.l"
+#line 7 "digit.l"
 {printf ("Not digit");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "digit.l"
 ECHO;
 	YY_BREAK
 #line 735 "lex.yy.c"
@@ -1736,7 +1736,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 8 "lex.l"
+#line 8 "digit.l"
 
 int main() {
     yylex();

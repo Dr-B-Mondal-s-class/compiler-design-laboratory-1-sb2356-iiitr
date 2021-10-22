@@ -462,8 +462,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "mobile.l"
+#line 2 "mobile.l"
 
 #line 469 "lex.yy.c"
 #line 470 "lex.yy.c"
@@ -683,7 +683,7 @@ YY_DECL
 		}
 
 	{
-#line 8 "lex.l"
+#line 8 "mobile.l"
 
 #line 689 "lex.yy.c"
 
@@ -744,17 +744,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "lex.l"
+#line 9 "mobile.l"
 {printf("Valid mobile number\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "mobile.l"
 {printf("invalid mobile number\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 11 "lex.l"
+#line 11 "mobile.l"
 ECHO;
 	YY_BREAK
 #line 761 "lex.yy.c"
@@ -1762,7 +1762,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 11 "lex.l"
+#line 11 "mobile.l"
 
 
 int main() {

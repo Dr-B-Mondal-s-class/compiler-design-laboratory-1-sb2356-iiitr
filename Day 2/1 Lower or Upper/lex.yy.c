@@ -441,8 +441,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "lowerupper.l"
+#line 2 "lowerupper.l"
     // Macros for C program
 #line 448 "lex.yy.c"
 #line 449 "lex.yy.c"
@@ -662,7 +662,7 @@ YY_DECL
 		}
 
 	{
-#line 9 "lex.l"
+#line 9 "lowerupper.l"
 
 #line 668 "lex.yy.c"
 
@@ -723,27 +723,27 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "lowerupper.l"
 {printf("lowercase\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 11 "lex.l"
+#line 11 "lowerupper.l"
 {printf("uppercase\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 12 "lex.l"
+#line 12 "lowerupper.l"
 {printf("Both\n");};
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 13 "lex.l"
+#line 13 "lowerupper.l"
 {printf("Other characters\n");};
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 14 "lex.l"
+#line 14 "lowerupper.l"
 ECHO;
 	YY_BREAK
 #line 750 "lex.yy.c"
@@ -1751,7 +1751,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "lex.l"
+#line 14 "lowerupper.l"
 
 
 int main()

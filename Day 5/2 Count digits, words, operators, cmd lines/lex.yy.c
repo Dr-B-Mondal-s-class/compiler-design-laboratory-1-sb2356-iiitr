@@ -461,8 +461,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "ndigword.l"
+#line 2 "ndigword.l"
     // Program to find number of
     // digit, number, words, operators, command lines, spaces, etc.
     int nids = 0, nkws = 0, nops = 0, nfls = 0, nsep = 0, nint = 0, n_total = 0;
@@ -684,7 +684,7 @@ YY_DECL
 		}
 
 	{
-#line 14 "lex.l"
+#line 14 "ndigword.l"
 
 #line 690 "lex.yy.c"
 
@@ -745,48 +745,48 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 15 "lex.l"
+#line 15 "ndigword.l"
 {nkws++; n_total++;};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 16 "lex.l"
+#line 16 "ndigword.l"
 {nids++; n_total++;};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 17 "lex.l"
+#line 17 "ndigword.l"
 {nops++; n_total++;};
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 18 "lex.l"
+#line 18 "ndigword.l"
 {nsep++; n_total++;};
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 19 "lex.l"
+#line 19 "ndigword.l"
 {nfls++; n_total++;};
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 20 "lex.l"
+#line 20 "ndigword.l"
 {nint++; n_total++;};
 	YY_BREAK
 case 7:
 /* rule 7 can match eol */
 YY_RULE_SETUP
-#line 21 "lex.l"
+#line 21 "ndigword.l"
 {return 0;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 22 "lex.l"
+#line 22 "ndigword.l"
 ;
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 23 "lex.l"
+#line 23 "ndigword.l"
 ECHO;
 	YY_BREAK
 #line 793 "lex.yy.c"
@@ -1794,7 +1794,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 23 "lex.l"
+#line 23 "ndigword.l"
 
 
 int main() {

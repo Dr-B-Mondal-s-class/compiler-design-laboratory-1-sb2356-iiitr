@@ -474,8 +474,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "keyword.l"
+#line 2 "keyword.l"
     // Program to check if input word
     // is a keyword or not
 #line 482 "lex.yy.c"
@@ -696,7 +696,7 @@ YY_DECL
 		}
 
 	{
-#line 6 "lex.l"
+#line 6 "keyword.l"
 
 #line 702 "lex.yy.c"
 
@@ -757,17 +757,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 "lex.l"
+#line 7 "keyword.l"
 {ECHO; printf(" is a keyword\n\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "keyword.l"
 {ECHO; printf(" is not a keyword\n\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 9 "lex.l"
+#line 9 "keyword.l"
 ECHO;
 	YY_BREAK
 #line 774 "lex.yy.c"
@@ -1775,7 +1775,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 9 "lex.l"
+#line 9 "keyword.l"
 
 int main() {
     yylex();

@@ -446,8 +446,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "operator.l"
+#line 2 "operator.l"
     // Program to check valid operators
 #line 453 "lex.yy.c"
 #line 454 "lex.yy.c"
@@ -667,7 +667,7 @@ YY_DECL
 		}
 
 	{
-#line 6 "lex.l"
+#line 6 "operator.l"
 
 #line 673 "lex.yy.c"
 
@@ -728,22 +728,22 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 "lex.l"
+#line 7 "operator.l"
 {ECHO; printf(" is an arithmetic operator\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "operator.l"
 {ECHO; printf(" is a logical operator\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 9 "lex.l"
+#line 9 "operator.l"
 {ECHO; printf(" is not a valid operator\n");};
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "operator.l"
 ECHO;
 	YY_BREAK
 #line 750 "lex.yy.c"
@@ -1751,7 +1751,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 10 "lex.l"
+#line 10 "operator.l"
 
 int main() {
     yylex();

@@ -1,10 +1,6 @@
 %{
     //lex file to check whether the input
-    //string is a pallindrome or not
-    //the program expects strings containing
-    //alphabets of both cases, digits, spaces
-    //and/or tabs
-    //source part
+    //string ends with 0/1 or not
     # include <stdio.h>
     # include <stdlib.h>
     # include "y.tab.h"

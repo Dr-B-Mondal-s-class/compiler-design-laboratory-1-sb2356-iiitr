@@ -66,7 +66,7 @@
 
 
 /* First part of user prologue.  */
-#line 2 "pal.y"
+#line 1 "pal.y"
 
    void yyerror(char *);
    #include <stdio.h>
@@ -136,7 +136,7 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 11 "pal.y"
+#line 9 "pal.y"
 char *string;
 
 #line 143 "y.tab.c"
@@ -515,7 +515,7 @@ static const yytype_int8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int8 yyrline[] =
 {
-       0,    20,    20,    21,    22,    24,    50
+       0,    17,    17,    18,    19,    21,    47
 };
 #endif
 
@@ -1300,19 +1300,19 @@ yyreduce:
   switch (yyn)
     {
   case 3:
-#line 21 "pal.y"
+#line 18 "pal.y"
                              {;}
 #line 1306 "y.tab.c"
     break;
 
   case 4:
-#line 22 "pal.y"
+#line 19 "pal.y"
                             {exit(EXIT_SUCCESS);}
 #line 1312 "y.tab.c"
     break;
 
   case 5:
-#line 24 "pal.y"
+#line 21 "pal.y"
                     {
                         flag = 0;
                         k = strlen((yyvsp[0].string)) - 1;
@@ -1342,7 +1342,7 @@ yyreduce:
     break;
 
   case 6:
-#line 50 "pal.y"
+#line 47 "pal.y"
                     {(yyval.string) = (yyvsp[0].string);}
 #line 1348 "y.tab.c"
     break;
@@ -1580,10 +1580,11 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 52 "pal.y"
+#line 49 "pal.y"
 
 
 int main() {
+	printf(">> ");
     return yyparse();
 }
 

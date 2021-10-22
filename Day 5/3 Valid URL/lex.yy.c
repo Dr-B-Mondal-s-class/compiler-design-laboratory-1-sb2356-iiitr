@@ -461,8 +461,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "validurl.l"
+#line 2 "validurl.l"
     // Program to check if given input
     // is a valid URL or not
 #line 469 "lex.yy.c"
@@ -683,7 +683,7 @@ YY_DECL
 		}
 
 	{
-#line 11 "lex.l"
+#line 11 "validurl.l"
 
 #line 689 "lex.yy.c"
 
@@ -744,17 +744,17 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 12 "lex.l"
+#line 12 "validurl.l"
 {printf("Valid URL\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 13 "lex.l"
+#line 13 "validurl.l"
 {printf("invalid URL\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 14 "lex.l"
+#line 14 "validurl.l"
 ECHO;
 	YY_BREAK
 #line 761 "lex.yy.c"
@@ -1762,7 +1762,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "lex.l"
+#line 14 "validurl.l"
 
 
 int main() {

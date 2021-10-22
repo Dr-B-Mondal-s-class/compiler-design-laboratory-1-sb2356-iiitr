@@ -436,8 +436,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "charsinfile.l"
+#line 2 "charsinfile.l"
     // Macros for C program
     #include <stdio.h>
     int ch = 0;
@@ -659,7 +659,7 @@ YY_DECL
 		}
 
 	{
-#line 7 "lex.l"
+#line 7 "charsinfile.l"
 
 #line 665 "lex.yy.c"
 
@@ -720,12 +720,12 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "charsinfile.l"
 {ch++;};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "charsinfile.l"
 ECHO;
 	YY_BREAK
 #line 732 "lex.yy.c"
@@ -1733,15 +1733,15 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 10 "lex.l"
+#line 10 "charsinfile.l"
 
 int yywrap(void)
 {
     return 1;
 }
 
-int main() {
-    yyin = fopen("ip.txt", "r");
+int main(int argc, char* argv[]) {
+    yyin = fopen(argv[1], "r");
     yylex();
     printf("No. of Characters: %d\n\n", ch);
     return 0;

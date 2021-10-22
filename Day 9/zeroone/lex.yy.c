@@ -439,16 +439,12 @@ char *yytext;
 #line 1 "zeroone.l"
 #line 2 "zeroone.l"
     //lex file to check whether the input
-    //string is a pallindrome or not
-    //the program expects strings containing
-    //alphabets of both cases, digits, spaces
-    //and/or tabs
-    //source part
+    //string ends with 0/1 or not
     # include <stdio.h>
     # include <stdlib.h>
     # include "y.tab.h"
-#line 451 "lex.yy.c"
-#line 452 "lex.yy.c"
+#line 447 "lex.yy.c"
+#line 448 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -665,10 +661,10 @@ YY_DECL
 		}
 
 	{
-#line 13 "zeroone.l"
+#line 9 "zeroone.l"
 
 
-#line 672 "lex.yy.c"
+#line 668 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -727,7 +723,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 15 "zeroone.l"
+#line 11 "zeroone.l"
 {
     yylval.f = yytext;
     return STR;
@@ -736,20 +732,20 @@ YY_RULE_SETUP
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 19 "zeroone.l"
+#line 15 "zeroone.l"
 {;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 20 "zeroone.l"
+#line 16 "zeroone.l"
 {return yytext[0];}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 21 "zeroone.l"
+#line 17 "zeroone.l"
 ECHO;
 	YY_BREAK
-#line 753 "lex.yy.c"
+#line 749 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1754,7 +1750,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 21 "zeroone.l"
+#line 17 "zeroone.l"
 
 
 int yywrap(){

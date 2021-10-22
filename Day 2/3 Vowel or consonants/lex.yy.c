@@ -441,8 +441,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "vnc.l"
+#line 2 "vnc.l"
     // Macros for C program
 #line 448 "lex.yy.c"
 #line 449 "lex.yy.c"
@@ -662,7 +662,7 @@ YY_DECL
 		}
 
 	{
-#line 7 "lex.l"
+#line 7 "vnc.l"
 
 #line 668 "lex.yy.c"
 
@@ -723,27 +723,27 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "lex.l"
+#line 8 "vnc.l"
 {printf ("Contains only vowels");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 9 "lex.l"
+#line 9 "vnc.l"
 {printf ("Contains only consonants");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "vnc.l"
 {printf ("Contains both vowels & consonants");};
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 11 "lex.l"
+#line 11 "vnc.l"
 {printf ("Contains other characters");};
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 12 "lex.l"
+#line 12 "vnc.l"
 ECHO;
 	YY_BREAK
 #line 750 "lex.yy.c"
@@ -1751,7 +1751,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 12 "lex.l"
+#line 12 "vnc.l"
 
 int main() {
     yylex();

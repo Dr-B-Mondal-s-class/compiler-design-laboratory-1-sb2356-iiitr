@@ -441,8 +441,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "intfl.l"
+#line 2 "intfl.l"
     // Program to check if input is
     // an integer, float or none
 #line 449 "lex.yy.c"
@@ -663,7 +663,7 @@ YY_DECL
 		}
 
 	{
-#line 8 "lex.l"
+#line 8 "intfl.l"
 
 #line 669 "lex.yy.c"
 
@@ -724,22 +724,22 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "lex.l"
+#line 9 "intfl.l"
 {ECHO; printf(" is an integer\n");};
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 10 "lex.l"
+#line 10 "intfl.l"
 {ECHO; printf(" is a floating-point number\n");};
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 11 "lex.l"
+#line 11 "intfl.l"
 {ECHO; printf(" is neither an integer nor a floating point number.\n");};
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 12 "lex.l"
+#line 12 "intfl.l"
 ECHO;
 	YY_BREAK
 #line 746 "lex.yy.c"
@@ -1747,7 +1747,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 12 "lex.l"
+#line 12 "intfl.l"
 
 int main() {
     yylex();
