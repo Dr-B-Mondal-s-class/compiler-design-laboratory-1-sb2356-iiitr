@@ -17,9 +17,9 @@
 
 | Sr. No. | Description | Date | Source Code | Output |
 | :--: | :---- | :--: | :--: | :--: |
-| 1. | Write a Lex program to detect whether an input string contains alphabets or digits. | 06/08/2021 | [Lex](./Day 1/1 Alpha or Digits/alpha-digit.l) | [Link](./Day 1/1 Alpha or Digits/op.png)
-| 2. | Write a Lex program to check whether the input string contains only alphabets or not. | 06/08/2021 | [Lex](./Day 1/2 Only Alphabet/onlyaplha.l) | [Link](./Day 1/2 Only Alphabet/op.png)
-| 3. | Write a Lex program to check whether the input contains only letters or only digits or both. | 06/08/2021 |[Lex](./Day 1/3 Only letters or only digits/only-letter-digit.l) | [Link](./Day 1/3 Only letters or only digits/op.png)
+| 1. | Write a Lex program to detect whether an input string contains alphabets or digits. | 06/08/2021 | [Lex](./Day%201/1%20Alpha%20or%20Digits/alpha-digit.l) | [Link](./Day%201/1%20Alpha%20or%20Digits/op.png)
+| 2. | Write a Lex program to check whether the input string contains only alphabets or not. | 06/08/2021 | [Lex](./Day%201/2%20Only%20Alphabet/onlyaplha.l) | [Link](./Day%201/2%20Only%20Alphabet/op.png)
+| 3. | Write a Lex program to check whether the input contains only letters or only digits or both. | 06/08/2021 |[Lex](./Day%201/3%20Only%20letters%20or%20only%20digits/only-letter-digit.l) | [Link](./Day%201/3%20Only%20letters%20or%20only%20digits/op.png)
 | 4. | Write a Lex program to check whether the input string contains lower-case or upper-case letters.| 13/08/2021 |[Lex](./Day 2/1 Lower or Upper/lowerupper.l) | [Link](./Day 2/1 Lower or Upper/op.png)
 | 5. | Write a Lex program to check whether the input is a digit or not. | 13/08/2021 | [Lex](./Day 2/2 Digit or not/digit.l) |[Link](./Day 2/2 Digit or not/op.png)
 | 6. | Write a Lex program to detect whether a string contains consonants or vowels. | 13/08/2021 | [Lex](./Day 2/3 Vowel or consonants/vnc.l) | [Link](./Day 2/3 Vowel or consonants/op.png)
