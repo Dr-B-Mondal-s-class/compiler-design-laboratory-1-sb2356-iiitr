@@ -6,12 +6,12 @@
 
 ## Introduction
 
-| **Name** | Soumyabrata Bairagi |
+| **Name** | [Soumyabrata Bairagi](https://github.com/sb2356-iiitr) |
 | :-- | :-- |
 | **Roll Number** | 2019UGCS028R |
 | **Date of submission** | 29/10/2021 |
 | **Subject Code** | CS 324 |
-| **Faculty** | Prof. Bhaskar Mondal |
+| **Faculty** | [Prof. Bhaskar Mondal](https://github.com/bhaskarfx) |
 
 ### Lab work
 
